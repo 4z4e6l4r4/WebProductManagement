@@ -11,11 +11,11 @@ namespace WebProductManagement.Entity
         public static int categoryId = 4;
         public static int productId = 8;
         private static List<Category> _categories = new List<Category>()
-        {
-            new Category{Id=1,Name="Bilgisayar",Description="Bilgisayar Katkegorisi",IsStatus=true},
-            new Category{Id=2,Name="Telefon",Description="Telefon Kategorisi",IsStatus=true},
-new Category{Id=3,Name="Tablet",Description="Tablet Kategorisi",IsStatus=false},
-new Category{Id=4,Name="Televizyon",Description="Televizyon Kategorisi",IsStatus=true},
+{
+new Category{Id=1,Name="Bilgisayar",Description="Bilgisayar Kategorisi",IsStatus=true,Image="computer.png"},
+new Category{Id=2,Name="Telefon",Description="Telefon Kategorisi",IsStatus=true,Image="mobile.png"},
+new Category{Id=3,Name="Tablet",Description="Tablet Kategorisi",IsStatus=false,Image="tablet (1).png"},
+new Category{Id=4,Name="Televizyon",Description="Televizyon Kategorisi",IsStatus=true,Image="tablet (2).png"},
 };
         private static List<Product> _products = new List<Product>()
 {
